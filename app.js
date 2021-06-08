@@ -9,7 +9,7 @@ app.listen (5500, () => {
     console.log ('Funciona OK');
 });
 
-app.get('/',(req,res)=>{
+app.get('/',(req,res) => {
     res.sendFile(path.resolve(__dirname, 'views/index.html'));
 });
 
