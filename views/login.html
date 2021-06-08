@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mercado liebre</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/b1875f8489.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header class= "header">
+        <div class="main-header1">
+            <div class="main-header-top-bar">
+                <img src="/img/logo-mercado-liebre.svg" class="logo1">
+            </div>
+            <div class="busqueda2">
+                <label class= "search">
+                    <input type="text" class="search-term" placeholder="Ingrese producto, marcas..." /><!-- es una search bar-->
+                    <i class="fas fa-search"></i>
+                </label>
+            </div>
+            <div class= "compra3"> 
+                <h2 class="copy-header">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    Comprá en cuotas y sin tarjeta de crédito
+                </h2>
+            </div>
+            <a href="#" class="hamburguer-button">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+        <div class= "barras">
+            <nav class="main-navbar"><!--Esto es navbar-->
+                <ul class="left-navbar">
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Tiendas Oficiales</a></li> 
+                    <li><a href="#">Vender</a></li> 
+                    <li><a href="#">Ayuda</a></li> 
+                </ul>
+                <ul class="right-navbar">
+                    <li><a href="#">Creá tu cuenta <i class="fas fa-credit-card"></i></a></li>
+                    <li><a href="#">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                    <li><a href="#">Mis Compras <i class="fas fa-shopping-basket"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Formulario-->
+    <main>
+        <div class="login-contenedor">
+            <h2 class="crear">Ingresar a Mercado Liebre</h2>
+            <form action="/login-tu-cuenta" method="POST" class="create-form">
+                <div class="control-formulario">
+                    <div class="control-formulario">
+                        <label for="usuario">Nombre de Usuario:</label>
+                        <input type="text" name="usuario" id="usuario" placeholder="LopezCar" class="control">
+                    </div>
+                    <div class="control-formulario">
+                        <label for="clave">Contraseña:</label>
+                        <input type="password" name="clave" id="clave" placeholder="LopezCar19" class="control">
+                    </div>
+              
+                    <div class="control-formulario">
+                        <button class="boton-formulario2" type="submit">Enviar</button>
+                    </div>
+                    <br>
+                    <div class="otros-accesos">
+                        <a href="#">Olvide mi contraseña</a>  |  
+                        <a href="#">Crear cuenta</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
