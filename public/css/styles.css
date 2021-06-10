@@ -210,6 +210,10 @@ body {
     text-align:center;
 }
 
+.iconoFooter:hover{
+    color: #39b54a;
+}
+
 .fraseFooter{
     height:16px;
     font-size: 16px;
